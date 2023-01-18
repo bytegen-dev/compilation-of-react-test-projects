@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+#root{
+    min-height: 100vh;
+    /* padding:  50px 0; */
+    width: 100vw;
+    background-image: linear-gradient(rgb(162, 72, 72),rgb(250, 63, 63));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: flavor !important;
+}
+
+.container{
+    /* width: 100%; */
+    width: 400px;
+    height: 800px;
+    /* max-height: 800px; */
+    position: relative;
+    background-color: #fff;
+    background-image: url(./logo512.png);
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position-y: center;
+    background-position-x: 250px;
+    /* background-color: rgb(255, 255, 255); */
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px rgb(118, 17, 17);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-bottom: 10px;
+    /* border: 10px ridge #000; */
+    /* border: 10px groove #000; */
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* animation: lit-borders 10s forwards infinite linear alternate; */
+    /* transform-style: preserve-3d; */
+    /* transform: perspective(450px) scale(0.75) rotateY(-15deg); */
+    /* border: 4px solid transparent; */
+    /* transform: perspective(400px) scale(0.75) rotateY(-15deg); */
+}
+
+
+::-webkit-scrollbar{
+    width: 5px;
+    width: 0px;
+    height: 5px;
+    position: fixed;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgba(162, 72, 72, 0.2);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: rgb(114, 27, 11);
+}
+
+::-webkit-scrollbar-track{
+    background: transparent;
+    /* border-radius: 30px; */
+    /* background: teal; */
+}
+
+::-webkit-scrollbar-button{
+    height: 20px;
+}
+
+
+@media screen and (max-width: 700px) {
+    .container{
+        width: 100vw;
+        height: 100vh;
+        max-height: 100vh;
+        border-radius: 0px;
+        /* border: 0px solid transparent; */
+    }
+}

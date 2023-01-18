@@ -1,25 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import Hamburger from "./Hamburger"
+import Navbar from "./Navbar"
+import Content from "./Content"
+import Test from "./Test"
+import MinTest from './mintest';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// import Card from "./Card"
+
+export default function App(){
+    return (
+        <div className="container">
+            <Navbar />
+            <Content />
+            <Test />
+            <MinTest />
+
+        </div>
+    )
 }
-
-export default App;
