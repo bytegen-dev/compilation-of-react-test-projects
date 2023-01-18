@@ -25,7 +25,7 @@ export default function Test(){
             </div>
             <div className="img-holder">
             {/* <img className="meme-image" src = "https://media.contentapi.ea.com/content/dam/eacom/images/2022/12/eacom-homepage-f23-vote-now-hero-med-7x2-xl.png.adapt.crop2x1.1023w.png" /> */}
-            <img className="meme-image" src = {memeImage} alt="meme-image"/>
+            <img className="meme-image" src = {memeImage} alt="meme"/>
             </div>
         </div>
     )

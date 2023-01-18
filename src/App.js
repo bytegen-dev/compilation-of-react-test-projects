@@ -1,5 +1,4 @@
 import React from "react"
-import Hamburger from "./Hamburger"
 import Navbar from "./Navbar"
 import Content from "./Content"
 import Test from "./Test"

@@ -6,7 +6,7 @@ function Person(name,age, id, img, visible){
     this.visible = visible
 }
 
-export default [
+const data = [
     new Person("Unity", 10, 1, "logo512.png", 1),
     new Person("Joel", 16, 2, "logo512.png", 0),
     new Person("Isaac", 19, 3, "logo512.png", 1),
@@ -16,3 +16,5 @@ export default [
     new Person("Samuel", 18, 7, "logo512.png", 0),
     new Person("Marvellous", 19, 8, "logo512.png", 1),
 ]
+
+export default data;

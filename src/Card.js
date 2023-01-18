@@ -11,7 +11,7 @@ export default function Card(props){
     return (
         <>
             {props.visible !== 0 && <div className="card">
-                <img src={props.img} onTouchEnd = {handleClick}/>
+                <img src={props.img} alt = "" onTouchEnd = {handleClick}/>
                 <h1>{props.name}</h1>
                 <h3>{props.age}</h3>
             </div> }
