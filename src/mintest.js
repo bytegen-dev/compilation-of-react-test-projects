@@ -17,7 +17,7 @@ export default function MinTest(){
         setState(function(oldValue){
             if (oldValue !== 0){
                 return(oldValue - 1)
-            } else if (oldValue == 0){
+            } else if (oldValue === 0){
                 return(oldValue = 0)
             }
         })
